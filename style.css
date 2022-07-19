@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.dragnsurvey.com/blog/en/wp-content/uploads/2019/02/The-6-Benefits-Of-Using-Surveys.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blueBG {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: rgba(48, 60, 116, 80%);
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
+h1, #description {
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+#description {
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+/* Form Card */
+.card {
+    background-color: rgba(44, 43, 71, 90%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 25% 0 25%;
+    padding: 2.6em;
+    border-radius: 5px;
+}
+
+::placeholder, select {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 7px;
+}
+
+#survey-form > * {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#name-label, #email-label, #number-label, #current-role {
+    margin-bottom: 5px;
+}
+
+#email-label, #number-label, #current-role {
+    margin-top: 25px;
+}
+
+#name, #email, #number, #comments, #submit {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+}
+
+#recommend, #improve {
+    border: none;
+}
+
+#recommend > *, #improve > * {
+    display: block;
+    padding: 3px;
+}
+
+#dropdown, #feature {
+    width: 100%;
+    height: 38px;
+    border-radius: 2px;
+    border: none;
+}
+
+#comments {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+#submit {
+    background-color:rgba(52, 172, 100, 0.9);
+    color: white;
+    font-size: large;
+    height: 45px;
+}
